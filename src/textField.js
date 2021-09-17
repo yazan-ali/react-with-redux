@@ -63,7 +63,7 @@ function TextField({ categories, handelSubmit, handelCategoryChang }) {
                 <input className="input"
                     type="text" value={search}
                     onChange={handelSearchChange}
-                    placeholder="Search"
+                    placeholder="Enter movie name"
                 />
                 {moviesOptionList &&
                     <div style={{ display: moviesOptionList.length > 0 ? "block" : "none" }}>

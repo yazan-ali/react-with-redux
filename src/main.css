@@ -123,6 +123,7 @@
     text-align: center;
     margin-bottom: 20px;
     color: #125040;
+    cursor: pointer;
 }
 
 .movie-card img{

@@ -66,7 +66,7 @@ function TextField({ categories, handelSubmit, handelCategoryChang }) {
                     placeholder="Enter movie name"
                 />
                 {moviesOptionList &&
-                    <div style={{ display: moviesOptionList.length > 0 ? "block" : "none" }}>
+                    <div style={{ display: moviesOptionList.length > 0 ? "block" : "none", backgroundColor: "#fff", color: "#125040" }}>
                         {
                             moviesOptionList.map(movie => (
                                 <p onClick={() => onMovieClick(movie)}>{movie.Title}</p>
